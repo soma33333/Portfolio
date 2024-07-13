@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    color: rgb(39, 129, 207);
+    background-image: url(/images/portback.avif);
+   
+    background-size: cover;
+ 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.abo{
+    width: 800px;
+    word-spacing: 15px;
+}
+
+.details{
+    
+
+  text-shadow: 0px  0px 2px black;
+
+    margin-left: 300px;
+    font-size: 30px;
+    word-spacing: 100px;
+}
+h1{
+    color: rgb(88, 88, 200);
+    font-family:Arial, Helvetica, sans-serif;
+ 
+}
+h2{
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.image{
+    margin-right: 100px;
+    float: right;
+} 
+
+.about{ 
+    padding-top: 20px;
+    text-align: center;
+    font-weight:300;
+    font-size: 30px;
+    font-style: oblique;
+    font-stretch: extra-expanded ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.skill{
+    
+    text-align: left;
+    font-weight:300;
+    font-size: 30px;
+    font-style: oblique;
+    font-stretch: extra-expanded ;
+}
+.lang:hover{
+    background-color: brown;
+}
+.lang{
+    
+    color: black;
+    border-radius: 30px;
+    height: 100px; 
+    width: 200px; 
+    border: 1px solid black; 
+    text-align: center;
+    background-color: aquamarine;
+}
+.projects{
+    width: 1250px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.pro{
+    font-style: oblique;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+  
+}
+
+.resume{
+    padding-top: 20px;
+    padding-left: 500px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+.foot{
+    color: black;
+    word-spacing: 180px;
+}
